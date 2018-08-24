@@ -1,0 +1,22 @@
+{
+  "name": "felipetio",
+  "version": "0.0.1",
+  "description": "Felipe Vieira personal website",
+  "repository": "github:felipetio/felipetio",
+  "scripts": {
+    "start": "node app.js",
+    "test": "ava"
+  },
+  "author": "Felipe Vieira <me@felipet.io>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "4.16.x"
+  },
+  "devDependencies": {
+    "ava": "0.25.x",
+    "supertest": "3.1.x"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
