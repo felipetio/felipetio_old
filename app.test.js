@@ -7,5 +7,5 @@ test('check status', async t => {
   const response = await request(app)
     .get('/');
     t.is(response.status, 200);
-    t.pass(response.text.match(/hello world!/));
+    t.pass(response.text.match(/F1A2 B49A BBC9 E883 A99B 6130 A88C 0EF4 F9CF 7E33/));
 })

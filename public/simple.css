@@ -1,0 +1,34 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+html {
+  font-size: 10pt;
+  line-height: 1.2;
+  font-weight: 200;
+  font-family: 'Helvetica Neue', 'Helvetica';
+}
+body {
+  padding: 1em;
+  margin-left: 5em;
+}
+code,
+pre,
+blockquote {
+  padding: .1em;
+}
+code,
+pre {
+  font-family: 'Consolas', 'monospace';
+}
+ul{
+ list-style-type: none;
+}
+em {
+  font-family: 'Architects Daughter', cursive;
+  font-style: italic;
+}
