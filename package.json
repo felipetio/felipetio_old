@@ -10,10 +10,10 @@
   "author": "Felipe Vieira <me@felipet.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "express": "4.16.x"
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "ava": "0.25.x",
+    "ava": "^2.1.0",
     "supertest": "3.1.x"
   },
   "engines": {
