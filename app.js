@@ -17,6 +17,15 @@ const express = require('express');
 
 const app = express();
 
+app.use("*", function(req, res, next){
+  if (req.hostname != 'localhost' && req.get('X-Forwarded-Proto') == 'http') {
+    res.redirect(`https://${req.hostname}${req.originalUrl}`);
+    res.end();
+  } else {
+    next();
+  }
+});
+
 app.use(express.static(__dirname + '/public'));
 
 if (module === require.main) {
