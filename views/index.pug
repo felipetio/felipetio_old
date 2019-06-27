@@ -2,15 +2,22 @@ extends layout
 
 block content
   h1.logo felipetio
-  p aka Felipe Vieira
-  p São Paulo, Brazil
 
-  p #[a(href='mailto:me@felipet.io') me@felipet.io]
+  p aka Felipe Vieira from São Paulo, Brazil
+  p you can reach me at #[a(href='mailto:me@felipet.io') me@felipet.io]
+
+  ul.inline
+    li
+      a(href='https://github.com/felipetio', title='Find me on Github', target='_blank')
+        img.icon(src='/images/social-media/github.png')
+    li
+      a(href='https://facebook.com/felipetio', title='Find me on Facebook', target='_blank')
+        img.icon(src='/images/social-media/facebook.png')
+    li
+      a(href='https://twitter.com/felipetio', title='Find me on Twitter', target='_blank')
+        img.icon(src='/images/social-media/twitter.png')
+    li
+      a(href='https://linkedin.com/in/felipetio/', title='Find me on LinkedIn', target='_blank')
+        img.icon(src='/images/social-media/linkedin.png')
+
   p #[a(href='felipetio.pub', download='felipetio.pub') F1A2 B49A BBC9 E883 A99B 6130 A88C 0EF4 F9CF 7E33]
-
-  ul
-    li #[a(href='https://github.com/felipetio') github]
-    li #[a(href='https://facebook.com/felipetio') facebook]
-    li #[a(href='https://twitter.com/felipetio') twitter]
-    li #[a(href='https://linkedin.com/in/felipetio/') linkedin]
-    li #[a(href='https://keybase.io/felipetio') keybase]
